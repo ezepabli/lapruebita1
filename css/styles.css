@@ -1,0 +1,7 @@
+.container{
+        width: 90%;
+        background-color: black;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 60px 0;
+}

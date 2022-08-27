@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap");
+
+/* Este es el reset  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.contenedor-index{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10% 10% 70% 10%;
+  grid-template-areas: 
+  "header"
+  "title"
+  "main"
+  "footer"
+  ;
+}
+
+/* Acá guardo variables con info importante y repetitiva  */
+:root {
+  --color-header: rgb(195, 207, 217);
+  --color-botones: rgb(32, 120, 104);
+}
+
+/*Le saco la viñeta a todas las listas  */
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Cosas particulares del header  */
+
+header {
+  grid-area: header;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-header);
+  width: 100%;
+  max-height: 50px;
+}
+
+header a{
+  flex-grow: 2;
+
+}
+
+.img-logo {
+
+  width: 40px;
+}
+
+.navbar-contenedor{
+  flex-grow: 8;
+}
+
+.navbar-links{
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-links a {
+  color: rgb(255, 255, 255);
+
+
+}
+
+.navbar-item {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 20%;
+  background-color: var(--color-botones);
+}
+
+/*Cosas particulares del main  */
+
+main {
+  background-color: rgb(232, 232, 232);
+}
+
+.titulo {
+  text-align: center;
+  padding: 10px;
+  grid-area: title;
+}
+
+.articulos-section{
+  grid-area: main;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.articulos-index{
+
+  border: 1.5px solid rgb(212, 207, 207);
+  padding: 40px;
+  margin: 5px;
+  border-radius: 110px;
+  width: 30rem;
+  display: grid;
+  grid-template-columns: 1fr 5fr 3fr;
+  grid-template-rows: 60px 160px;
+  grid-template-areas: 
+  "numero titulo imagen"
+  "numero descripcion imagen"
+  ;
+}
+
+main section article h2{
+grid-area: numero;
+display: flex;
+text-align: center;
+align-items: center;
+
+}
+
+main section article h3 {
+  grid-area: titulo;
+}
+
+main section article p {
+  grid-area: descripcion;
+}
+
+main section article div {
+  grid-area: imagen;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.imgchica {
+  width: 154px;
+  height: 84px;
+}
+
+.imggrande {
+  width: 128px;
+  height: 96px;
+}
+
+/*Cosas particulares del footer  */
+
+.footer {
+  background-color: var(--color-header);
+  grid-area: footer;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  padding: 5px;
+}
+
+.texto-footer{
+  flex-grow: 7;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 15px;
+  align-items: center;
+}
+
+footer nav span{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.logos-redes {
+  flex-grow: 3;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logos-redes img{
+  width: 25px;
+  height: 25px;
+}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
+}

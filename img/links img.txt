@@ -1,0 +1,9 @@
+casa 1: https://static.eldiario.es/clip/b31bb31f-4a4b-4f77-8768-43ec0c0698d8_16-9-discover-aspect-ratio_default_0.jpg
+casa 2: https://www.arquitecturaydiseno.es/medio/2020/10/19/casa-prefabricada-de-hormipresa-en-el-boecillo-valladolid-realizada-con-el-sistema-arctic-wall-de-paneles-estructurales-con-el-acabado-incorporado_6f2a28cd_1280x794.jpg
+casa 3: https://s03.s3c.es/imag/_v0/700x420/8/d/9/700x420_casas-prefabricadas-lujo-atlantida-homes-1-1.jpg
+casa fondo: https://www.arquitecturaydiseno.es/medio/2020/12/27/1-casa-prefabricada-en-uruguay_33dfc1cb_1200x630.jpg
+casa 4: https://casasinhaus.com/wp-content/uploads/2021/10/casas-prefabricadas-valencia-fachada.jpg
+casa 5: https://www.noticiastrabajo.es/uploads/images/61406591a756f.jpg
+persona1: https://thumbs.dreamstime.com/b/haga-frente-al-retrato-de-la-mujer-sonriente-aislado-en-el-fondo-blanco-108226905.jpg
+persona2: https://thumbs.dreamstime.com/b/situaci%C3%B3n-confiada-del-hombre-con-los-brazos-cruzados-contra-el-fondo-blanco-hermoso-joven-que-sonr%C3%ADe-mientras-hace-contacto-152747145.jpg
+persona3: https://cdn.create.vista.com/api/media/small/308648722/stock-photo-cheerful-man-standing-crossed-arms
